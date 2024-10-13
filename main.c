@@ -24,15 +24,20 @@ int main() {
 
     
     while (true) {
-        printf("Maintenant, entrez la longueur :\n");
+        printf("Maintenant, entrez la longueur entre 10 et 20 :\n");
         scanf("%d", &longueur);
-        if (longueur >= 5 && longueur <= 20) {
+        if (longueur >= 10 && longueur <= 20) {
             break;
         } else {
-            printf("Erreur : la longueur doit être entre 5 et 20.\n");
+            printf("Erreur : la longueur doit être entre 10 et 20.\n");
         }}
+
+
+        
     
-    plateaux();
-    mouvement();
+    char tableau[largeur][longueur];
+
+    
+    mouvement(tableau);
     return 0;
 }

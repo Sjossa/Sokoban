@@ -4,7 +4,8 @@
 extern int largeur ;
 extern int longueur;
 
-void plateaux();
+
+
 void mouvement();
 
 
